@@ -1,0 +1,37 @@
+body{
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.67);
+    display: flex;
+    align-items: center; /* verticalement */
+    justify-content: center;/* horizontalement */
+    margin: 0;
+}
+#card{
+   border-radius: 20px;
+    width: 35%;
+    background-color: aliceblue;
+}
+#content button{
+    padding: 5px;
+    background-color: red;
+    color: aliceblue;
+}
+#content #part{
+    margin-left: 100px;
+}
+#haut{
+    margin-top: -20px;
+    background-color: red;
+    height: 40px;
+    border-top-left-radius:8px ;
+    border-top-right-radius:10px ;
+    color: aliceblue;
+}
+#button{
+    text-align: center;
+    padding-bottom: 10px;
+}
+button{
+    background-color: red;
+    color: aliceblue;
+}
