@@ -1,0 +1,21 @@
+.table {
+    width:100%;
+    border: 1px solid black;
+}
+th {
+    border: 1px solid black;
+}
+.start{
+    text-align:left;
+}
+.deux{
+    border: 1px solid black;
+    width:50%;
+}
+p{
+    font-weight: bold;
+}
+.table2 {
+    height:20px;
+    width:90px;
+}
