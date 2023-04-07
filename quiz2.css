@@ -60,7 +60,7 @@ left: 1050px;
     margin-top: 90px;
 }
 #popular #pic2{ /* ajuste la photo et s'adapte au border defini */
-    width: 60%;
+    width: 100%;
     display: block;
 }
 
