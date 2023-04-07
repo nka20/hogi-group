@@ -1,10 +1,11 @@
 body{
-    font-family:'arial,helvetica,sans-serif';
+    font-family:arial,helvetica,sans-serif;
     background-color: #ccc;
 }
 header{
     text-align: center;
     padding: 50px;
+    background-color: azure;
 }
 nav{
     background-color: black;
@@ -24,16 +25,19 @@ left: 1050px;
 #all{
     display: flex;
 }
-#all #main{
+#all #main{ /* ajuste la photo et s'adapte au border defini */
     width: 70%;
     margin-top: 20px;
 }
 #all #main #first{
     background-color: azure;
     padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
-#all img{
+#all img{ /* ajuste la photo et s'adapte au border defini */
     width: 100%; 
+    display: block;
 }
 #all #side{
     background-color: azure;
@@ -44,25 +48,27 @@ left: 1050px;
     height:350px;
 }
 #pic1 img{
-    width: 90%;
-    height: 190%;
+    width: 100%;
+    display: block;
 }
 #all #popular{
     background-color: azure;
     width:100%;
     padding-left: 10px;
    margin-left: -10px;
-    height:970px;
+    padding-top: 10px;
     margin-top: 90px;
 }
-#popular #pic2{
-width:80%;
-height: 50%;
+#popular #pic2{ /* ajuste la photo et s'adapte au border defini */
+    width: 60%;
+    display: block;
 }
 
 #all #main #second{
     background-color: azure;
     padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 footer{
     margin-top: 10px;
