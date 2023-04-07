@@ -17,7 +17,12 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none;
+    transition: all 0.3s;
 } 
+nav ul li a:hover{
+    padding: 10px;
+  background-color: #ccc;
+}
 .separer{
     position: relative;;
 left: 1050px;
