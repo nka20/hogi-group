@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+body{
+    min-height: 100vh;
+    background-color:rgb(242, 172, 184);
+    display: flex;
+    align-items: center; /* verticalement */
+    justify-content: center;/* horizontalement */
+    margin: 0;
+}
+#card{
+   display: flex;
+    border-radius: 20px;
+    width: 50%;
+    height:400px;
+    background-color: aliceblue;
+}
+#card #img{
+    width:50%;
+}
+#card #img img{
+    width:100%;
+    height: 100%;
+    display: block;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#card #img #op{
+    width:50%;
+    border: 1px inset black;
+    position: relative;
+    top: -250px;
+    left:80px;
+    text-align: center;
+    color: aliceblue;
+} 
+#card #img p span{
+    letter-spacing: 10px;
+    font-family: sofia,sans-serif;
+    color: rgb(242, 123, 143);
+}
+#card #form{
+    padding-left: 30px;
+    padding-top: 80px;
+}
+#button{
+    margin-top: 10px;
+    background-color: rgb(242, 123, 143);
+    text-align: center;
+    border-radius: 5px;
+    padding: 4px;
+}
+#button a{
+    font-family: sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+}
+#p{
+    color:rgb(242, 123, 143);
+    text-decoration: none;
+}
+input{
+    border:1px solid rgb(242, 123, 143);
+    border-radius: 15px;
+    padding: 8px;
+}
