@@ -11,3 +11,8 @@ for(let i=1;i<=100;i++){
 console.log(result);
     }
 }
+//or
+for(let i=1;i<=100;i+=2){
+    let result=5*i;
+    console.log("5"+"*"+i+"="+result);
+}
