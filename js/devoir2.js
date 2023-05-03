@@ -45,15 +45,24 @@ for (let card in cni){
     console.log(card);// nom,prenom,age,nom--
 }
 for (let card in tableau){//
-    console.log(card);
+    console.log(tableau[card]); //si c'etait card seulement il montrerait le longeur du tableau a savoir 1,2,3,4,5
 }
 /*
-VM352:2 1
-VM352:2 2
-VM352:2 3
-VM352:2 4
-VM352:2 5
+ 4
+ 8
+ 1
+ 9
+ 0
+ 3
 */
 for (let card of cni){
     console.log(card);
 }
+/*
+ 4
+ 8
+ 1
+ 9
+ 0
+ 3
+*/
