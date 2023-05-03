@@ -31,6 +31,7 @@ let cni={
     nom_du_pere:"joe doe",
     nom_du_mere:"jeanne doe",
     fullName(){return this.nom_du_pere+" et "+this.nom_du_mere},
+    fullage(){return this.nom+" et "+this.age},
 }
 
 // la difference entre for -- in et for --of
