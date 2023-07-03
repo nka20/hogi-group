@@ -1,0 +1,84 @@
+body{
+    font-family:arial,helvetica,sans-serif;
+    background-color: #ccc;
+}
+header{
+    text-align: center;
+    padding: 50px;
+    background-color: azure;
+}
+nav{
+    background-color: black;
+padding: 2px;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+} 
+nav ul li a:hover{
+    padding: 10px;
+  background-color: #ccc;
+}
+.separer{
+    position: relative;;
+left: 1050px;
+}
+#all{
+    display: flex;
+}
+#all #main{ /* ajuste la photo et s'adapte au border defini */
+    width: 70%;
+    margin-top: 20px;
+}
+#all #main #first{
+    background-color: azure;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#all img{ /* ajuste la photo et s'adapte au border defini */
+    width: 100%; 
+    display: block;
+}
+#all #side{
+    background-color: azure;
+    margin-top: 20px;
+    margin-left: 30px;
+    width:28%;
+    padding-left: 10px;
+    height:350px;
+}
+#pic1 img{
+    width: 100%;
+    display: block;
+}
+#all #popular{
+    background-color: azure;
+    width:80%;
+    padding-left: 10px;
+   margin-left: -10px;
+    padding-top: 10px;
+    margin-top: 90px;
+    display: block;
+}
+#popular #pic2{ /* ajuste la photo et s'adapte au border defini */
+    width: 100%;
+    display: block;
+}
+
+#all #main #second{
+    background-color: azure;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+footer{
+    margin-top: 10px;
+    background-color: azure;
+    text-align: center;
+    padding: 1%;
+}
